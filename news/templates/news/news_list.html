@@ -1,0 +1,14 @@
+{%  extends "base.html" %}
+{% block title %}News{% endblock title %}
+{% block content %}
+    {% for news in news_list %}
+        <div class="news">
+        <h2>{{ news.title }}</h2>
+{#            <h3>Новость </h3>#}
+            <p>{{ news.discription }}</p>
+        <p>Добавлено {{ news.owner }}
+        {{ news.created }}</p>
+        <p>Обновлено {{ news.updated }}</p>
+        </div>
+    {% endfor %}
+{% endblock content %}
