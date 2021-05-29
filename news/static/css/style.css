@@ -4,7 +4,7 @@ body{
     max-width: content-box;
     /*margin-right: 20%;*/
 }
-div.news{
+.news{
     border: darkblue 5px solid;
     border-radius: 10px;
     margin-top: 5px;
@@ -21,14 +21,9 @@ h2{
     color: wheat;
     font-size: 20px;
 }
-h3{
-    color: wheat;
-    font-size: 10px;
-}
 p{
     color: cornsilk;
     font-size: 15px;
-    width: -moz-fit-content;
 }
 
 
